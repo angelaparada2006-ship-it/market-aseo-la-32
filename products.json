@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "nombre": "Listerine Cool Mint 500 ml x6",
+    "categoria": "Aseo personal",
+    "precio": 23291.25
+  },
+  {
+    "nombre": "Desodorante para pies 260 ml",
+    "categoria": "Aseo personal",
+    "precio": 21106
+  },
+  {
+    "nombre": "Palmolive líquido 390 ml",
+    "categoria": "Aseo personal",
+    "precio": 18662.6
+  },
+  {
+    "nombre": "Jabón Johnson's almendras y avena x3",
+    "categoria": "Aseo personal",
+    "precio": 11342.5
+  },
+  {
+    "nombre": "Jabón Johnson's renovadora granada x3",
+    "categoria": "Aseo personal",
+    "precio": 11342.5
+  },
+  {
+    "nombre": "Jabón Johnson's rosas y sándalo x3",
+    "categoria": "Aseo personal",
+    "precio": 11342.5
+  },
+  {
+    "nombre": "Jabón Johnson's Daily Care original x3",
+    "categoria": "Aseo personal",
+    "precio": 11342.5
+  },
+  {
+    "nombre": "Jabón Palmolive en barra x12",
+    "categoria": "Aseo personal",
+    "precio": 3489.6
+  },
+  {
+    "nombre": "Jabón Protex Nutri Protect en barra x12",
+    "categoria": "Aseo personal",
+    "precio": 3990
+  },
+  {
+    "nombre": "Crema dental Colgate Triple Acción 150 ml x6",
+    "categoria": "Aseo personal",
+    "precio": 12127.05
+  },
+  {
+    "nombre": "Crema dental Crest Plus 178 g x5",
+    "categoria": "Aseo personal",
+    "precio": 9100
+  },
+  {
+    "nombre": "Jabón lavaloza en crema Dishwashing Paste 500 g x12",
+    "categoria": "Limpieza del hogar",
+    "precio": 5177.9
+  },
+  {
+    "nombre": "Jabón Axion lavaloza en crema Aloe 450 g x12",
+    "categoria": "Limpieza del hogar",
+    "precio": 6612.5
+  },
+  {
+    "nombre": "Toallas desinfectantes Wipes x4",
+    "categoria": "Limpieza del hogar",
+    "precio": 16166.25
+  },
+  {
+    "nombre": "Toallas desinfectantes Clorox Wipes x5",
+    "categoria": "Limpieza del hogar",
+    "precio": 22770
+  },
+  {
+    "nombre": "Quitamanchas Dr. Beckmann 250 ml x4",
+    "categoria": "Limpieza del hogar",
+    "precio": 29632.5
+  },
+  {
+    "nombre": "Ambientador Febreze 250 g x8",
+    "categoria": "Limpieza del hogar",
+    "precio": 16762.5
+  },
+  {
+    "nombre": "Ambientador Glade 400 ml x4",
+    "categoria": "Limpieza del hogar",
+    "precio": 11342.5
+  },
+  {
+    "nombre": "Spray desinfectante Lysol 538 g x3",
+    "categoria": "Limpieza del hogar",
+    "precio": 24655.8
+  },
+  {
+    "nombre": "Raid Max 400 ml x3",
+    "categoria": "Limpieza del hogar",
+    "precio": 20204.1
+  }
+]
