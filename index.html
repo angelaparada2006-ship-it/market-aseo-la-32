@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market De Aseo La 32 | Aseo para hogar, mascotas y autos en Barrancabermeja</title>
+  <meta name="description" content="Tienda de productos de aseo en el barrio La Floresta, Barrancabermeja. Limpieza para el hogar, mascotas y autos. Envíos a domicilio. Escríbenos por WhatsApp.">
+  <meta name="theme-color" content="#0056b3">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Market De Aseo La 32">
+  <meta property="og:description" content="Todo para el aseo de tu hogar, auto y mascota. Envíos a domicilio en Barrancabermeja.">
+  <meta property="og:locale" content="es_CO">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧼</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Market De Aseo La 32",
+    "description": "Productos de aseo para el hogar, mascotas y autos.",
+    "telephone": "+573156904526",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Carrera 32 #73-54, Barrio La Floresta",
+      "addressLocality": "Barrancabermeja",
+      "addressRegion": "Santander",
+      "addressCountry": "CO"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#inicio" aria-label="Market De Aseo La 32, inicio">
+        <span class="brand-icon" aria-hidden="true">🧼</span>
+        <span data-cfg="negocio.nombre">Market De Aseo La 32</span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#catalogo" id="navCatalogo" hidden>Catálogo</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="wrap">
+        <h1 data-cfg="negocio.nombre">Market De Aseo La 32</h1>
+        <p class="hero-sub" data-cfg="negocio.eslogan">Todo para el aseo de tu hogar, auto y mascota</p>
+        <div class="hero-actions">
+          <a class="btn btn-wa js-wa" data-wa-text="Hola, quisiera hacer un pedido." href="#" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+          <a class="btn btn-ghost" href="#productos">Ver productos</a>
+        </div>
+        <p class="hero-badge">🚚 Hacemos envíos a domicilio</p>
+      </div>
+    </section>
+    <section class="section" id="nosotros">
+      <div class="wrap card">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos tu tienda de confianza en el barrio La Floresta, Barrancabermeja. Ofrecemos los mejores productos de limpieza para mantener impecable tu hogar, cuidar a tus mascotas y dejar tu auto como nuevo. Te asesoramos para que lleves exactamente lo que necesitas.</p>
+      </div>
+    </section>
+    <section class="section" id="productos">
+      <div class="wrap">
+        <h2>Nuestros productos</h2>
+        <div class="grid">
+          <article class="card cat"><div class="cat-icon" aria-hidden="true">🏠</div><h3>Hogar</h3><p>Desengrasantes, detergentes, ambientadores, limpiadores de pisos.</p></article>
+          <article class="card cat"><div class="cat-icon" aria-hidden="true">🐾</div><h3>Mascotas</h3><p>Shampoos, eliminadores de olores, tapetes absorbentes.</p></article>
+          <article class="card cat"><div class="cat-icon" aria-hidden="true">🚗</div><h3>Autos</h3><p>Cera, silicona, shampoo para autos, restauradores de partes negras.</p></article>
+          <article class="card cat"><div class="cat-icon" aria-hidden="true">🧴</div><h3>Aseo personal</h3><p>Jabones, papel higiénico, artículos de cuidado diario.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="catalogo" hidden>
+      <div class="wrap">
+        <h2>Catálogo</h2>
+        <div class="chips" id="filtros" role="group" aria-label="Filtrar por categoría"></div>
+        <div class="grid" id="listaProductos" aria-live="polite"></div>
+      </div>
+    </section>
+    <section class="section" id="contacto">
+      <div class="wrap contact-grid">
+        <div class="card">
+          <h2>Contáctanos</h2>
+          <p><strong>Dirección:</strong> <span data-cfg="negocio.direccion"></span>, <span data-cfg="negocio.ciudad"></span>.</p>
+          <p><strong>Teléfono / WhatsApp:</strong> <a class="js-tel" href="#"><span data-cfg="negocio.telefono"></span></a></p>
+          <p id="filaEmail" hidden><strong>Correo:</strong> <a id="enlaceEmail" href="#"></a></p>
+          <p id="filaHorario" hidden><strong>Horario:</strong> <span data-cfg="negocio.horario"></span></p>
+          <p>¡Hacemos envíos a domicilio!</p>
+          <a class="btn btn-wa js-wa" data-wa-text="Hola, necesito información." href="#" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+          <div class="social" id="redes"></div>
+        </div>
+        <div class="card">
+          <h2>Envíanos un mensaje</h2>
+          <form id="formContacto" novalidate>
+            <label for="fNombre">Nombre</label><input id="fNombre" name="nombre" type="text" autocomplete="name" required maxlength="80">
+            <label for="fContacto">Teléfono o correo</label><input id="fContacto" name="contacto" type="text" autocomplete="off" required maxlength="80">
+            <label for="fMensaje">Mensaje</label><textarea id="fMensaje" name="mensaje" rows="4" required maxlength="800"></textarea>
+            <input class="hp" type="text" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+            <p class="form-msg" id="formMsg" role="status"></p>
+          </form>
+        </div>
+      </div>
+      <div class="wrap" id="bloqueMapa" hidden><iframe id="mapa" class="map" title="Ubicación de Market De Aseo La 32" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap"><p>&copy; <span id="anio">2026</span> <span data-cfg="negocio.nombre">Market De Aseo La 32</span>. Todos los derechos reservados.</p></div></footer>
+  <a class="wa-float js-wa" data-wa-text="Hola, quisiera información." href="#" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" fill="currentColor"><path d="M4 3h24a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H15l-8 6v-6H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></a>
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
