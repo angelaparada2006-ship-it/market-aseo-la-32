@@ -9,7 +9,7 @@ window.SITE_CONFIG = {
     email: "",
     horario: ""
   },
-  dominio: { url: "" },
+  dominio: { url: "https://angelaparada2006-ship-it.github.io/market-aseo-la-32" },
   redes: { facebook: "", instagram: "", tiktok: "" },
   mapa: { embedUrl: "https://www.google.com/maps?q=Carrera+32+%2373-54+La+Floresta+Barrancabermeja&output=embed" },
   api: { baseUrl: "", productosPath: "/productos", headers: {}, timeoutMs: 8000 },
