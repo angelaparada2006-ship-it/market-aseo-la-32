@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://angelaparada2006-ship-it.github.io/market-aseo-la-32/sitemap.xml
